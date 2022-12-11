@@ -1,0 +1,31 @@
+//1
+sudo apt install nmap
+nmap -sP 8.8.8.8
+
+//2
+sudo apt install nmap
+nmap -sT 8.8.8.8
+
+//3
+sudo snap install enum4linux
+enum4linux -U -o 8.8.8.8
+
+//4
+sudo apt install ruby && sudo gem install wpscan 
+wpscan --url https://deepamdigital.com/
+wpscan --url https://www.savukkuonline.com/
+
+//5
+sudo apt install nikto 
+nikto -h https://www.bbc.com/news/world/ -ssl
+
+//6
+sudo apt install snort
+sudo snort
+
+//7
+juice-shop.herokuapp.com
+user - admin' or 1= 1;--
+pass - ja
+
+//8
